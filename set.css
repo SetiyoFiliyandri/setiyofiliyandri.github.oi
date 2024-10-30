@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #6be903;
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e0dae2;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-img {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
